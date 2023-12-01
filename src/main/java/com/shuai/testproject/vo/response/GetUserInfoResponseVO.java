@@ -1,8 +1,11 @@
-package com.shuai.testaop.vo.request;
+package com.shuai.testproject.vo.response;
 
-public class GetUserInfoRequestVO {
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
+public class GetUserInfoResponseVO {
 
     private Long id;
+
     private String name;
 
     public Long getId() {
@@ -19,5 +22,10 @@ public class GetUserInfoRequestVO {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString(){
+        return ToStringBuilder.reflectionToString(this);
     }
 }

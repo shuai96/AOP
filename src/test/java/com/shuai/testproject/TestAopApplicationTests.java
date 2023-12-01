@@ -1,4 +1,4 @@
-package com.shuai.testaop;
+package com.shuai.testproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

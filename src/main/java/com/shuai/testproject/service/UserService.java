@@ -1,8 +1,8 @@
-package com.shuai.testaop.service;
+package com.shuai.testproject.service;
 
-import com.shuai.testaop.response.BaseResponse;
-import com.shuai.testaop.vo.request.GetUserInfoRequestVO;
-import com.shuai.testaop.vo.response.GetUserInfoResponseVO;
+import com.shuai.testproject.response.BaseResponse;
+import com.shuai.testproject.vo.request.GetUserInfoRequestVO;
+import com.shuai.testproject.vo.response.GetUserInfoResponseVO;
 
 public interface UserService {
 

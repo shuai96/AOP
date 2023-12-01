@@ -1,11 +1,11 @@
-package com.shuai.testaop.controller;
+package com.shuai.testproject.controller;
 
 
-import com.shuai.testaop.log.OperaLog;
-import com.shuai.testaop.response.BaseResponse;
-import com.shuai.testaop.service.UserService;
-import com.shuai.testaop.vo.request.GetUserInfoRequestVO;
-import com.shuai.testaop.vo.response.GetUserInfoResponseVO;
+import com.shuai.testproject.log.OperaLog;
+import com.shuai.testproject.response.BaseResponse;
+import com.shuai.testproject.service.UserService;
+import com.shuai.testproject.vo.request.GetUserInfoRequestVO;
+import com.shuai.testproject.vo.response.GetUserInfoResponseVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

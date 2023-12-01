@@ -1,4 +1,4 @@
-package com.shuai.testaop.log;
+package com.shuai.testproject.log;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

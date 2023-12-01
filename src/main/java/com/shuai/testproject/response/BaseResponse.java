@@ -1,4 +1,4 @@
-package com.shuai.testaop.response;
+package com.shuai.testproject.response;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

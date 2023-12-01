@@ -1,4 +1,4 @@
-package com.shuai.testaop.response;
+package com.shuai.testproject.response;
 
 public interface ErrorCode {
     String code();
