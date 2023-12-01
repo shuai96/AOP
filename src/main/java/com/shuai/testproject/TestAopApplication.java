@@ -1,11 +1,11 @@
-package com.shuai.testaop;
+package com.shuai.testproject;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.shuai.testaop.dao")
+@MapperScan("com.shuai.testproject.dao")
 public class TestAopApplication {
 
 	public static void main(String[] args) {

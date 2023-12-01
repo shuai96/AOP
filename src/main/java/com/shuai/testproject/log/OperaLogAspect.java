@@ -1,9 +1,9 @@
-package com.shuai.testaop.log;
+package com.shuai.testproject.log;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shuai.testaop.response.BaseResponse;
-import com.shuai.testaop.response.exception.SysException;
+import com.shuai.testproject.response.BaseResponse;
+import com.shuai.testproject.response.exception.SysException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
@@ -22,7 +22,7 @@ public class OperaLogAspect {
 
     private static Logger logger = LogManager.getLogger(OperaLogAspect.class);
 
-    @Pointcut("@annotation(com.shuai.testaop.log.OperaLog)")
+    @Pointcut("@annotation(com.shuai.testproject.log.OperaLog)")
     public void operatorLog() {
 
     }

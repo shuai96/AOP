@@ -2,10 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.shuai.testaop.dao.UserMapper">
+<mapper namespace="com.shuai.testproject.dao.UserMapper">
 
 
-    <select id="selectById" resultType="com.shuai.testaop.vo.response.GetUserInfoResponseVO">
+    <select id="selectById" resultType="com.shuai.testproject.vo.response.GetUserInfoResponseVO">
         SELECT id, name
         FROM user
         WHERE id = #{id}

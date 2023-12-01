@@ -1,4 +1,4 @@
-package com.shuai.testaop.response.exception;
+package com.shuai.testproject.response.exception;
 
 public class SysException extends RuntimeException{
 

@@ -1,11 +1,11 @@
-package com.shuai.testaop.service.impl;
+package com.shuai.testproject.service.impl;
 
-import com.shuai.testaop.dao.UserMapper;
-import com.shuai.testaop.response.BaseResponse;
-import com.shuai.testaop.response.exception.SysException;
-import com.shuai.testaop.service.UserService;
-import com.shuai.testaop.vo.request.GetUserInfoRequestVO;
-import com.shuai.testaop.vo.response.GetUserInfoResponseVO;
+import com.shuai.testproject.dao.UserMapper;
+import com.shuai.testproject.response.BaseResponse;
+import com.shuai.testproject.response.exception.SysException;
+import com.shuai.testproject.service.UserService;
+import com.shuai.testproject.vo.request.GetUserInfoRequestVO;
+import com.shuai.testproject.vo.response.GetUserInfoResponseVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
