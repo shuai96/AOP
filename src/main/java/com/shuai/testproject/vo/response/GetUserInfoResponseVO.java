@@ -2,6 +2,9 @@ package com.shuai.testproject.vo.response;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
+/**
+ * @author shuai
+ */
 public class GetUserInfoResponseVO {
 
     private Long id;

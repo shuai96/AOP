@@ -4,6 +4,9 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.io.Serializable;
 
+/**
+ * @author shuai
+ */
 public class BaseResponse<T> implements Serializable {
 
     private String respCode = "0000";

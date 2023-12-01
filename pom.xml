@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>test-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>test-aop</name>
-    <description>test-aop</description>
+    <name>test-project</name>
+    <description>test-project</description>
     <properties>
         <java.version>11</java.version>
     </properties>

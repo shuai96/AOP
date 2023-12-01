@@ -13,6 +13,9 @@ import java.net.URLEncoder;
 import java.util.Map;
 
 
+/**
+ * @author shuai
+ */
 public class PdfUtils {
 
     private static final Logger logger = LoggerFactory.getLogger(PdfUtils.class);
@@ -75,7 +78,7 @@ public class PdfUtils {
             //打开PDF文件
             document.open();
             //设置内容
-            Paragraph paragraph = new Paragraph("深圳市粮食和物资储备保障中心", font);
+            Paragraph paragraph = new Paragraph("文档标题", font);
             //居中设置
             paragraph.setAlignment(Element.ALIGN_CENTER);
             document.add(paragraph);

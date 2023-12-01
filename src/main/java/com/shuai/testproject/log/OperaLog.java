@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * 定义操作日志注解
+ * @author shuai
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

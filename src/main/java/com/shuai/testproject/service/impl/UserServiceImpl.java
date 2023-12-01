@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author shuai
+ */
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -22,14 +25,15 @@ public class UserServiceImpl implements UserService {
     /**
      * 查询用户信息
      *
-     * @param userInfoRequestVO
-     * @return
+     * @param userInfoRequestVO GetUserInfoRequestVO
+     * @return BaseResponse<GetUserInfoResponseVO>
      */
     @Override
     public BaseResponse<GetUserInfoResponseVO> getUserInfo(GetUserInfoRequestVO userInfoRequestVO) {
-        if(userInfoRequestVO.getId() == 1){
+        if (userInfoRequestVO.getId() == 1) {
             throw new SysException("666", "777");
         }
+
         GetUserInfoResponseVO getUserInfoResponseVO = userMapper.selectById(userInfoRequestVO.getId());
         BaseResponse<GetUserInfoResponseVO> baseResponse = new BaseResponse<>();
         baseResponse.setRespInfo(getUserInfoResponseVO);

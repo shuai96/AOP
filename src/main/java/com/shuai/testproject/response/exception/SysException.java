@@ -1,5 +1,8 @@
 package com.shuai.testproject.response.exception;
 
+/**
+ * @author shuai
+ */
 public class SysException extends RuntimeException{
 
     private String code;

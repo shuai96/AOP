@@ -15,12 +15,14 @@ import org.springframework.stereotype.Component;
 
 /**
  * 操作日志切面定义
+ *
+ * @author shuai
  */
 @Aspect
 @Component
 public class OperaLogAspect {
 
-    private static Logger logger = LogManager.getLogger(OperaLogAspect.class);
+    private static final Logger logger = LogManager.getLogger(OperaLogAspect.class);
 
     @Pointcut("@annotation(com.shuai.testproject.log.OperaLog)")
     public void operatorLog() {

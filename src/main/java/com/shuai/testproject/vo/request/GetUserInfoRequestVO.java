@@ -1,5 +1,8 @@
 package com.shuai.testproject.vo.request;
 
+/**
+ * @author shuai
+ */
 public class GetUserInfoRequestVO {
 
     private Long id;
